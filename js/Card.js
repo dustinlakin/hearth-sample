@@ -33,7 +33,7 @@ var Card = (function() {
 		//we will fill this card when we find the right id
 		var result;
 		//loop through and find the card with the correct id
-		for (var i = 0, len = window.cardData; i < len; i++){
+		for (var i = 0, len = window.cardData.length; i < len; i++){
 			var cd = window.cardData[i];
 			if (cd.id === cardId){
 				//found it set data and break out of loop
